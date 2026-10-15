@@ -1,9 +1,10 @@
-#posts-container {
+#post-list {
   display: grid;
   gap: 16px;
   max-width: 800px;
   margin: 20px auto;
   padding: 16px;
+  list-style: none;
 }
 
 .post {
@@ -13,10 +14,10 @@
   background-color: #f9f9f9;
 }
 
-.post h2 {
+.post h1 {
   text-transform: capitalize;
 }
 
 .post p {
   line-height: 1.6;
-} 
+}
